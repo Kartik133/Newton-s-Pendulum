@@ -7,7 +7,7 @@ class Bob {
           density:0.8
       }
 
-      this.body = Bodies.circle(x,y,(radius-20)/2,options);
+      this.body = Bodies.circle(x,y,(radius)/2,options);
       this.radius = radius;
       this.x = x;
       this.y = y;
